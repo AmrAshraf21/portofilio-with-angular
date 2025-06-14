@@ -1,0 +1,42 @@
+.about-me{
+    padding: 50px 0;
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .aboutme-left{
+        width: 100%;
+        
+        font-size: 60px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .aboutme-content{
+        
+        
+        width: 100%;
+        
+        p{
+        width: 100%;
+            margin: auto;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        a{
+            margin: 3rem auto;
+            
+            text-decoration: none;
+            display: inline-block;
+            color: white;
+            padding: 1.5rem 3rem;
+            border-radius: 10px;
+            background-color: #2a3558;
+            
+        }
+    }
+}
+}

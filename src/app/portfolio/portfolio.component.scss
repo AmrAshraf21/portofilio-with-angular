@@ -1,0 +1,45 @@
+.section-portfolio{
+    padding: 100px 0;
+    .container{
+    width: 90%;
+    margin: 0 auto;
+        h3{
+            font-size: 50px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            position: relative;
+            text-align: center;
+            
+        }
+        h3::after{
+            content: "";
+            position: absolute;
+            width: 16%;
+            height: 5px;
+            top: 100%;
+            
+            left: 42%;
+            background-color: blanchedalmond;
+        }
+        .cards-wrapper{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 2rem;
+            flex-wrap: wrap;
+            .card{
+                margin: 10px 20px;
+                flex: 1;
+                background-color: #192c421a;
+                padding: 10rem;
+                text-align: center;
+                
+                h4{
+                    
+                    font-size: 30px;
+                }
+                
+            }
+        }
+}
+        
+
+}

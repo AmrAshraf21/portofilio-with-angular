@@ -1,0 +1,63 @@
+.footer-section{
+    padding: 50px 0;
+    background-color: #15120d;
+
+    .container{
+        width: 80%;
+        margin: 0 auto;
+
+        .wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .left{
+                h3{
+                    font-size: 30px;
+                    color: #fff;
+                    font-family: monospace;
+
+                }
+                i{
+                    font-size: 20px;
+                    color: #fff;
+                    padding-right: 1rem;
+                    padding-top: 1rem;
+                }
+                a{
+                    font-size: 20px;
+                    text-decoration: none;
+                    font-style: italic;
+                    color: #fff;
+                }
+            }
+            .contact-me{
+                button{
+                    padding: 1rem 1.5rem;
+                    border-radius: 5px;
+                    border: none;
+                    background-color: rgb(146, 42, 63);
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+            .right{
+                ul{
+                    display: flex;
+                    
+                justify-content: space-evenly;
+                    li{
+                        color: #fff;
+                        font-size: 28px;
+                        cursor: pointer;
+                    }
+
+                }
+                p{
+                    font-size: 30px;
+                    padding: 1.5rem 0;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
