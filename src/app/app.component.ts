@@ -15,4 +15,12 @@ import { FooterComponent } from './footer/footer.component';
 })
 export class AppComponent {
   title = 'first-project';
+
+  isLogged = true;
+
+
+  arr:string[] = ["test","ahmed","mohhaned"]
+  updateNames(){
+    this.arr.push("attia");
+  }
 }

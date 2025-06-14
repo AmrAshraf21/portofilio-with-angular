@@ -3,7 +3,21 @@
         <h3>Portfolio</h3>
 
         <div class="cards-wrapper">
+
+            @for (item of arrOfCards; track item.title) {
+
+
             <div class="card">
+                <img [width]="item.width" [height]="item.height" [src]="item.src" [alt]="item.alt" />
+                <h4>{{item.title}}</h4>
+            </div>
+
+            }@empty {
+            <div class="card">
+                <h4>No Skills found</h4>
+            </div>
+            }
+            <!-- <div class="card">
                 <img width="96" height="96"
                     src="https://img.icons8.com/external-goofy-color-kerismaker/96/external-Web-Developer-web-development-goofy-color-kerismaker.png"
                     alt="external-Web-Developer-web-development-goofy-color-kerismaker" />
@@ -35,7 +49,7 @@
                 <img width="80" height="80" src="https://img.icons8.com/dotty/80/developer-mode.png"
                     alt="developer-mode" />
                 <h4>Mobile Application Development</h4>
-            </div>
+            </div> -->
 
 
         </div>

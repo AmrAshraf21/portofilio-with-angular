@@ -21,9 +21,14 @@ print(){
 }
 
 
+
 updateColor(){
   
   if(this.color ==="Blue") this.color = "Navy";
   else this.color = "Blue";
 }
+
+
+
+
 }

@@ -1,0 +1,38 @@
+.section-portfolio {
+  padding: 100px 0;
+}
+.section-portfolio .container {
+  width: 90%;
+  margin: 0 auto;
+}
+.section-portfolio .container h3 {
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: relative;
+  text-align: center;
+}
+.section-portfolio .container h3::after {
+  content: "";
+  position: absolute;
+  width: 16%;
+  height: 5px;
+  top: 100%;
+  left: 42%;
+  background-color: blanchedalmond;
+}
+.section-portfolio .container .cards-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  flex-wrap: wrap;
+}
+.section-portfolio .container .cards-wrapper .card {
+  margin: 10px 20px;
+  flex: 1;
+  background-color: rgba(25, 44, 66, 0.1019607843);
+  padding: 10rem;
+  text-align: center;
+}
+.section-portfolio .container .cards-wrapper .card h4 {
+  font-size: 30px;
+}/*# sourceMappingURL=portfolio.component.css.map */

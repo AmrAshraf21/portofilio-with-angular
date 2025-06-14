@@ -9,4 +9,6 @@ import { Component } from '@angular/core';
 })
 export class SkillsComponent {
 
+skills:string[]=["Angular","React","ASP.NET MVC","ASP.NET API","SQLServer"];
+
 }

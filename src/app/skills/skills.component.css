@@ -1,0 +1,77 @@
+.skills-section {
+  padding: 100px 0;
+  background-color: #3d3d3d;
+}
+.skills-section .container {
+  width: 90%;
+  margin: 0 auto;
+}
+.skills-section .container h2 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: serif;
+  color: rgb(193, 189, 189);
+}
+.skills-section .container p {
+  text-align: center;
+  font-size: 30px;
+  width: 80%;
+  margin: auto;
+  padding: 1.5rem 0;
+  color: #9b9b9b;
+}
+.skills-section .container .skills-wrapper {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skills-section .container .skills-wrapper .skills-left h3 {
+  font-size: 5rem;
+  color: #f0e5e5;
+  position: relative;
+}
+.skills-section .container .skills-wrapper .skills-left h3::after {
+  content: "";
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  background-color: #9b9b9b;
+  top: 100%;
+  left: 0;
+}
+.skills-section .container .skills-wrapper .skills-left ul li {
+  margin: 2rem 1.5rem;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #f0e5e5;
+}
+.skills-section .container .skills-wrapper .skill-right {
+  width: 50%;
+}
+.skills-section .container .skills-wrapper .skill-right .progress {
+  width: 100%;
+}
+.skills-section .container .skills-wrapper .skill-right .progress li::after {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 40px;
+  background-color: rgb(101, 99, 99);
+  top: 0;
+}
+.skills-section .container .skills-wrapper .skill-right .progress li {
+  width: 100%;
+  position: relative;
+  background-color: rgb(136, 124, 124);
+  height: 40px;
+  margin: 2rem;
+  padding: 12px 0;
+}
+.skills-section .container .skills-wrapper .skill-right .progress li span {
+  background-color: rgb(203, 203, 234);
+  padding: 12px 30px;
+}/*# sourceMappingURL=skills.component.css.map */
